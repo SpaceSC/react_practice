@@ -25,9 +25,10 @@ function App() {
   return (
     <div className="App">
       {data.map((data) => {
+        console.log(`fruit-${data.id}`); // keys should be strings
         return (
           <Fruits
-            key={data.id}
+            key={`fruit-${data.id}`}
             fruitId={data.id}
             fruitContent={data.content}>
           </Fruits>
@@ -43,6 +44,7 @@ function App() {
       */}
     </div>
   );
+ 
 }
-
+ 
 export default App;
