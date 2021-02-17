@@ -40,7 +40,6 @@ function App() {
       }
       <Counter />
       <Practice />
-      
     </div>
   );
  
