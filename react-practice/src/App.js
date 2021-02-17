@@ -1,6 +1,7 @@
 import Fruits from './components/Fruits.jsx';
 import Counter from './components/Counter.jsx';
 import Practice from './components/Practice.jsx';
+
 import './App.css';
 
 function App() {

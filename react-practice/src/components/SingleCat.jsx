@@ -1,20 +1,15 @@
 import React from 'react'; 
 
 function SingleCat(props) {
-
+  // we want one cat in this
   
   return (
-    <div className="catcontainer">
-      <h1>Practice</h1>
-      <div>
-        {props.catsObject.map((item, index)=> 
-          <p key={item.id}>{item.id}</p>)}
-      </div>
-    </div>
+    
+    <p>{props.catName}</p>
+      
   );
  
 }
  
 export default SingleCat;
 
-// key should be unique id, shouldn't be the index
